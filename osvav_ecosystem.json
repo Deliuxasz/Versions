@@ -1,13 +1,15 @@
 {
   "watermark": "OsvaV",
-  "version": "1.0.1",
-  "released_at": "2026-01-19",
+  "version": "1.0.2",
+  "released_at": "2026-01-22",
   "title": "OsvaV Economy Intelligence",
-  "description": "Product released.",
+  "description": "Stability + integrations update.",
   "changes": [
-    "Product release"
+    "Exports: CreateAlert / LogTransaction / LogTransfer / LogPurchase / UpsertAsset / SetPlayerProfile",
+    "SQL: eco_transactions.meta added (for rich metadata + integrations)",
+    "QBox (qbx_core) compatibility improvements"
   ],
-  "cfx_asset": "https://forum.cfx.re/t/YOUR-ASSET-LINK",
+  "cfx_asset": "https://forum.cfx.re/u/osvav/activity",
   "download": "https://keymaster.fivem.net/asset-grants",
   "support": "https://discord.gg/gYznbbtnzf"
 }
