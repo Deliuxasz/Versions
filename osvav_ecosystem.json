@@ -1,13 +1,20 @@
 {
   "watermark": "OsvaV",
-  "version": "1.0.2",
-  "released_at": "2026-01-22",
+  "version": "1.0.3",
+  "released_at": "2026-01-24",
   "title": "OsvaV Economy Intelligence",
-  "description": "Stability + integrations update.",
+  "description": "Major stability, permissions, and settings overhaul with improved Economy data clarity.",
   "changes": [
-    "Exports: CreateAlert / LogTransaction / LogTransfer / LogPurchase / UpsertAsset / SetPlayerProfile",
-    "SQL: eco_transactions.meta added (for rich metadata + integrations)",
-    "QBox (qbx_core) compatibility improvements"
+    "Settings: Fixed persistence issue where values reverted to defaults after resource restart",
+    "Settings: Removed incorrect 'read-only in production' restriction; settings are now editable based solely on permissions",
+    "Permissions: Fully refactored admin-gating system to be 100% config-driven (no hardcoded groups)",
+    "Permissions: Improved QBCore / QBox (qbx_core) permission detection reliability",
+    "Economy UI: Improved 'Unavailable' states with clear, data-driven explanations",
+    "Economy UI: Added data readiness indicators (transactions, snapshots, freshness)",
+    "Integrations: Export-based integration layer stabilized for third-party banking scripts (e.g. tgg_banking)",
+    "Integrations: Improved QBox compatibility for player data and transactions",
+    "Stability: Multiple edge-case fixes preventing UI desync and server-side errors",
+    "General: Code cleanup and internal consistency improvements"
   ],
   "cfx_asset": "https://forum.cfx.re/u/osvav/activity",
   "download": "https://keymaster.fivem.net/asset-grants",
